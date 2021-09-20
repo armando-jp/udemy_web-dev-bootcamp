@@ -10,24 +10,44 @@ body {
     height: 200px;
 }
 
-.skills-pic {
+.skills-hardware {
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 25%;
+    float: left;
+    padding: 30px;
+}
+
+.skills-software {
+    position: relative;
+    width: 25%;
+    float: right;
+    padding: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
 
 h1 {
     margin: 50px auto 0 auto;
-    font-size: 5.625rem;
+    font-size: 5.625rem; /* 16px = 100% = 1em */
+    color: #66BFBF;
+    line-height: 2;
 }
 
 h2 {
     font-size: 2.5rem;
     margin-top: 0px;
+    color: #66BFBF;
+    font-weight: normal;
 }
 
 h3 {
     margin-top: 0px;
+    color: #11999E;
 }
 
 .top-container {
