@@ -1,5 +1,5 @@
 .DS_Store
 
-/vagrant
-/machine_data
+.vagrant/
+machine_data/
 ubuntu-bionic*
