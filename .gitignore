@@ -3,3 +3,4 @@
 .vagrant/
 machine_data/
 ubuntu-bionic*
+node_modules/
